@@ -94,28 +94,25 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-        "https://t.alcy.cc/pc",
-        "https://t.alcy.cc/fj",
-        "http://www.98qy.com/sjbz/api.php",
-        "https://www.dmoe.cc/random.php",
-        "https://t.alcy.cc/ycy",
-        "https://api.mtyqx.cn/tapi/random.php",
-        "https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881",
-				// "/assets/desktop-banner/1.webp",
-				// "/assets/desktop-banner/2.webp",
-				// "/assets/desktop-banner/3.webp",
-				// "/assets/desktop-banner/4.webp",
-				// "/assets/desktop-banner/5.webp",
-				// "/assets/desktop-banner/6.webp",
+"https://t.alcy.cc/pc",
+      "https://t.alcy.cc/fj",
+      "http://www.98qy.com/sjbz/api.php",
+      "https://www.dmoe.cc/random.php",
+      "https://t.alcy.cc/ycy",
+      "https://api.mtyqx.cn/tapi/random.php",
+      "https://www.loliapi.com/acg/",
+      "https://api.horosama.com/random.php?type=pc",
+      "https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302",
+      "https://api.seaya.link/daily",
+      "https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881",
 			], // 桌面横幅图片
 			mobile: [
-        "https://t.alcy.cc/mp",
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
-				"/assets/mobile-banner/5.webp",
-				"/assets/mobile-banner/6.webp",
+      "https://t.alcy.cc/mp",
+      "https://t.alcy.cc/moempi",
+      "https://api.ghser.com/random/pe.php",
+      "https://www.loliapi.com/acg/",
+      "https://api.horosama.com/random.php?type=mobile",
+      "https://v2.xxapi.cn/api/randomAcgPic?type=wap&return=302",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -188,12 +185,11 @@ export const siteConfig: SiteConfig = {
 	showCoverInContent: true, // 在文章内容页显示文章封面
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
-		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		{
+		  src: '/favicon/K-ON.ico',    // 图标文件路径
+		  theme: 'light',              // 可选，指定主题 'light' | 'dark'
+		  sizes: '32x32',              // 可选，图标大小
+		}
 	],
 
 	// 字体配置
@@ -222,21 +218,36 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
       "https://t.alcy.cc/pc",
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
-			"/assets/desktop-banner/5.webp",
-			"/assets/desktop-banner/6.webp",
+      "https://t.alcy.cc/fj",
+      "http://www.98qy.com/sjbz/api.php",
+      "https://www.dmoe.cc/random.php",
+      "https://t.alcy.cc/ycy",
+      "https://api.mtyqx.cn/tapi/random.php",
+      "https://www.loliapi.com/acg/",
+      "https://api.horosama.com/random.php?type=pc",
+      "https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302",
+      "https://api.seaya.link/daily",
+      "https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881",
+			// "/assets/desktop-banner/1.webp",
+			// "/assets/desktop-banner/2.webp",
+			// "/assets/desktop-banner/3.webp",
+			// "/assets/desktop-banner/4.webp",
+			// "/assets/desktop-banner/5.webp",
+			// "/assets/desktop-banner/6.webp",
 		], // 桌面横幅图片
 		mobile: [
       "https://t.alcy.cc/mp",
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
-			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
+      "https://t.alcy.cc/moempi",
+      "https://api.ghser.com/random/pe.php",
+      "https://www.loliapi.com/acg/",
+      "https://api.horosama.com/random.php?type=mobile",
+      "https://v2.xxapi.cn/api/randomAcgPic?type=wap&return=302",
+			// "/assets/mobile-banner/1.webp",
+			// "/assets/mobile-banner/2.webp",
+			// "/assets/mobile-banner/3.webp",
+			// "/assets/mobile-banner/4.webp",
+			// "/assets/mobile-banner/5.webp",
+			// "/assets/mobile-banner/6.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
