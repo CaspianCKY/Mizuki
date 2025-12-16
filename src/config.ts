@@ -220,6 +220,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
       "https://t.alcy.cc/pc",
       "https://t.alcy.cc/fj",
       "http://www.98qy.com/sjbz/api.php",
+      "https://imgapi.xl0408.top/index.php",
       "https://www.dmoe.cc/random.php",
       "https://t.alcy.cc/ycy",
       "https://api.mtyqx.cn/tapi/random.php",
@@ -238,6 +239,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		mobile: [
       "https://t.alcy.cc/mp",
       "https://t.alcy.cc/moempi",
+      "https://api.anosu.top/img/",
       "https://api.ghser.com/random/pe.php",
       "https://www.loliapi.com/acg/",
       "https://api.horosama.com/random.php?type=mobile",

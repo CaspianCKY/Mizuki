@@ -7,7 +7,7 @@ tags: [嵌入式, C51, STM32]
 category: 嵌入式
 licenseName: "CC BY 4.0"
 author: CaspianCKY
-# sourceLink: "https://github.com/emn178/markdown"
+sourceLink: "https://github.com/CaspianCKY/Mizuki/blob/master/src/content/posts/Keil5%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md"
 draft: false
 date: 2025-12-16
 # image: "./cover.png"
