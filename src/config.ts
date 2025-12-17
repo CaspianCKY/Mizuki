@@ -186,7 +186,7 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
 		{
-		  src: '/favicon/K-ON.ico',    // 图标文件路径
+		  src: '/favicon/favicon.ico',    // 图标文件路径
 		  theme: 'light',              // 可选，指定主题 'light' | 'dark'
 		  sizes: '32x32',              // 可选，图标大小
 		}
