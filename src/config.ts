@@ -94,12 +94,13 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-"https://t.alcy.cc/pc",
+      "https://t.alcy.cc/pc",
       "https://t.alcy.cc/fj",
       "http://www.98qy.com/sjbz/api.php",
       "https://www.dmoe.cc/random.php",
       "https://t.alcy.cc/ycy",
       "https://api.mtyqx.cn/tapi/random.php",
+      "https://img.paulzzh.com/touhou/random",
       "https://www.loliapi.com/acg/",
       "https://api.horosama.com/random.php?type=pc",
       "https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302",
@@ -187,8 +188,8 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 		  src: '/favicon/favicon.ico',    // 图标文件路径
-		  theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		  sizes: '32x32',              // 可选，图标大小
+		  // theme: 'light',              // 可选，指定主题 'light' | 'dark'
+		  // sizes: '32x32',              // 可选，图标大小
 		}
 	],
 
@@ -228,6 +229,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
       "https://api.horosama.com/random.php?type=pc",
       "https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302",
       "https://api.seaya.link/daily",
+      "https://img.paulzzh.com/touhou/random",
       "https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881",
 			// "/assets/desktop-banner/1.webp",
 			// "/assets/desktop-banner/2.webp",
@@ -337,28 +339,28 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
-			name: "Others",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				// {
-				// 	name: "Skills",
-				// 	url: "/skills/",
-				// 	icon: "material-symbols:psychology",
-				// },
-				// {
-				// 	name: "Timeline",
-				// 	url: "/timeline/",
-				// 	icon: "material-symbols:timeline",
-				// },
-			],
-		},
+		// {
+		// 	name: "Others",
+		// 	url: "#",
+		// 	icon: "material-symbols:more-horiz",
+		// 	children: [
+		// 		{
+		// 			name: "Projects",
+		// 			url: "/projects/",
+		// 			icon: "material-symbols:work",
+		// 		},
+		// 		{
+		// 			name: "Skills",
+		// 			url: "/skills/",
+		// 			icon: "material-symbols:psychology",
+		// 		},
+		// 		{
+		// 			name: "Timeline",
+		// 			url: "/timeline/",
+		// 			icon: "material-symbols:timeline",
+		// 		},
+		// 	],
+		// },
 	],
 };
 
