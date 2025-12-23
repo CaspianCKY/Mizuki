@@ -30,4 +30,4 @@ pubDate: 2025-12-19
 ## 3. 解决方法
 
 我的另一篇博客中，有详细介绍如何安装AC5编译链。
-[关于新版MDK缺少ArmCompiler5（AC5）编译链的问题](https://caspiancky.de5.net/posts/keil5-安装教程/#八关于新版mdk缺少arm-compiler5ac5编译链的问题)
+[关于新版MDK缺少ArmCompiler5（AC5）编译链的问题](https://caspiancky.de5.net/posts/keil5-%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/#%E5%85%AB%E5%85%B3%E4%BA%8E%E6%96%B0%E7%89%88mdk%E7%BC%BA%E5%B0%91arm-compiler5ac5%E7%BC%96%E8%AF%91%E9%93%BE%E7%9A%84%E9%97%AE%E9%A2%98)
